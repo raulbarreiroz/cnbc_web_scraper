@@ -4,7 +4,7 @@
 Proyecto que toma información de stock de la página de cnbc, mediante un etl creado en python, almacena información en una base de datos sqlite (web scrapper.py)
 
 ## Extracción información relevante
-Adicional se ajuntan queries para extraer información relevante 
+Adicional se ajuntan queries para extraer información relevante usando sqlite. Posteriormente se migrará a alguna motor de base de datos relacional como sql server o postgresql y no relacional (práctica solamente), se usó sqlite por practicidad.
 
 ## Futuras actualizaciones
 - Disponibilizar en API (Azure o AWS)
